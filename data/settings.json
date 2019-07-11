@@ -1,0 +1,28 @@
+{
+  "En_Page_Subscription": {
+    "subscription_title": "All about Redactor, Grafs and Kube.",
+    "sub_title": "Monthly news & updates. Just straight to the point.",
+    "placeholder_text": "Enter Email",
+    "button_text": "Subscribe"
+  },
+  "Nl_Page_Subscription": {
+    "subscription_title": "Dutch Title Here :   All about Redactor, Grafs and Kube.",
+    "sub_title": "Dutch SubTitle Here : ",
+    "placeholder_text": "Dutch Email Placeholder Here : ",
+    "button_text": "Meld je aan"
+  },
+  "En_footer_Subscription": {
+    "highlight_title": "New",
+    "main_title": "Want actionable tips and advice from us? ",
+    "sub_title": "Then hop on the newsletter.",
+    "placeholder_text": "Enter Your Email",
+    "button_text": "Subscribe"
+  },
+  "Nl_footer_Subscription": {
+    "highlight_title": "Nieuw",
+    "main_title": "Wil je direct toepasbare tips en adviezen van ons?",
+    "sub_title": "Meld je aan voor onze nieuwsbrief.",
+    "placeholder_text": "Vul je emailadres in",
+    "button_text": "Meld je aan"
+  }
+}

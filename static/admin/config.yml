@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+  
+publish_mode: editorial_workflow
+
+media_folder: "static/images/uploads" # Folder where user uploaded files should go
+public_folder: "/images/uploads"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "settings"
+    label: "Settings"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - name: "general"
+        label: "Site Settings"
+        file: "data/settings.json"
+        description: "General Site Settings"
+        fields:
+          - label: "English Page News Subscription"
+            name: En_Page_Subscription
+            widget: "object"
+            fields:
+              - {label: "Title", name: "subscription_title", widget: "string"}
+              - {label: "Sub Title", name: "sub_title", widget: "string"}
+              - {label: "Placeholder Text", name: "placeholder_text", widget: "string"}
+              - {label: "Button Text", name: "button_text", widget: "string"}
+          - label: "Dutch Page News Subscription"
+            name: Nl_Page_Subscription
+            widget: "object"
+            fields:
+              - {label: "Title", name: "subscription_title", widget: "string"}
+              - {label: "Sub Title", name: "sub_title", widget: "string"}
+              - {label: "Placeholder Text", name: "placeholder_text", widget: "string"}
+              - {label: "Button Text", name: "button_text", widget: "string"}
+          - label: "English Footer News Subscription"
+            name: En_footer_Subscription
+            widget: "object"
+            fields:
+              - {label: "Title Hightlight text", name: "highlight_title", widget: "string"}
+              - {label: "Main Title", name: "main_title", widget: "string"}
+              - {label: "Sub Title", name: "sub_title", widget: "string"}
+              - {label: "Placeholder Text", name: "placeholder_text", widget: "string"}
+              - {label: "Button Text", name: "button_text", widget: "string"}
+          - label: "Dutch Footer News Subscription"
+            name: Nl_footer_Subscription
+            widget: "object"
+            fields:
+              - {label: "Title Hightlight text", name: "highlight_title", widget: "string"}
+              - {label: "Main Title", name: "main_title", widget: "string"}
+              - {label: "Sub Title", name: "sub_title", widget: "string"}
+              - {label: "Placeholder Text", name: "placeholder_text", widget: "string"}
+              - {label: "Button Text", name: "button_text", widget: "string"}
+  
+  - name: "home"
+    label: "Home page"
+    files:
+      - file: "home/welcome.yml"
+        label: "Welcome part"
+        name: "welcome"
+        fields:
+          - {label: Enable, name: enable, widget: select, options: ["true", "false"]}
