@@ -1,15 +1,26 @@
 enable: 'true'
-titleSection: "Werkwijze"
+titleSection: Werkwijze
 list:
- - image: img/icon/icon_2.png
-   heading: SEO Strategie
-   info: Suggesties voor zoekwoorden, uitwerking van een long tail en short tail keywords, advies voor een ijzersterke SEO technisch geoptimaliseerde website.
- - image: img/icon/icon_3.png
-   heading: Content Creatie
-   info: Dankzij ons Influencer Netwerk in iedere branche zijn wij in staat om kwalitatieve content voor uw bedrijf te creeeren. Content door onze influencers matcht met uw doelgoep.
- - image: img/icon/icon_1.png
-   heading: Linkbuilding (distributie)
-   info: Distributie van uw content via het Influencer Netwerk bestaande uit duizenden websites en blogs. Dit zorgt voor directe zichtbaarheid en de follow links verhogen SEO rankings.
- - image: img/icon/icon_1.png
-   heading: Quality Service
-   info: Starting with a full audit of your technical SEO presence means our efforts won’t be wasted on unnoticed structural problems.
+  - heading: 'SEO Strategie Ram '
+    image: img/icon/icon_2.png
+    info: >-
+      Suggesties voor zoekwoorden, uitwerking van een long tail en short tail
+      keywords, advies voor een ijzersterke SEO technisch geoptimaliseerde
+      website.
+  - heading: Content Creatie
+    image: img/icon/icon_3.png
+    info: >-
+      Dankzij ons Influencer Netwerk in iedere branche zijn wij in staat om
+      kwalitatieve content voor uw bedrijf te creeeren. Content door onze
+      influencers matcht met uw doelgoep.
+  - heading: Linkbuilding (distributie)
+    image: img/icon/icon_1.png
+    info: >-
+      Distributie van uw content via het Influencer Netwerk bestaande uit
+      duizenden websites en blogs. Dit zorgt voor directe zichtbaarheid en de
+      follow links verhogen SEO rankings.
+  - heading: Quality Service
+    image: img/icon/icon_1.png
+    info: >-
+      Starting with a full audit of your technical SEO presence means our
+      efforts won’t be wasted on unnoticed structural problems.
