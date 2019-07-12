@@ -57,3 +57,11 @@ collections: # A list of collections the CMS should be able to edit
              - {label: Information, name: info, widget: string}
              - {label: Button Text, name: ButtonText, widget: string, required: false}
              - {label: Button URL, name: ButtonUrl, widget: string, required: false}
+          - label: "Footer Bottom"
+            name: footerBottom
+            widget: "object"
+            fields:
+             - {label: About, name: about, widget: string}
+             - {label: Information, name: info, widget: string}
+             - {label: Button Text, name: ButtonText, widget: string, required: false}
+             - {label: Button URL, name: ButtonUrl, widget: string, required: false}
