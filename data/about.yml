@@ -1,19 +1,13 @@
-enable: "true"
-titleSection: "Voordelen"
+enable: 'true'
+titleSection: Voordelen
 list:
- - image: img/about/about-1.png
-   title: Kwalitatieve backlinks zijn essentieel voor hoge Google rankings!
-   buttonText: ""
-   buttonUrl: ""
-   subList:
-    - Vergroot je concurrentie voorsprong door het verkrijgen van kwalitieve backlinks uit het Influencer Netwerk van Working with Brands. Duizenden blogs en sites van influencers  beschikbaar!
-    - Wij behandelen backlinks als assests van uw onderneming en monitoren deze dagelijks. Via uw dashboard bent u altijd op de hoogte van de voortgang en verkregen backlinks.
-    - Working with Brands ontzorgt bedrijven in hun linkbuilding. Wij nemen al het werk uit handen en rapporteren u de voortgang en resultaten. 10 jaar ervaring verwerkt in onze dienstverlening.
- - image: img/about/about-2.png
-   title: De voordelen van Influencer Marketing
-   buttonText: "Gratis Linkbuilding Advies"
-   buttonUrl: "#"
-   subList:
-    - Influencers activeren uw doelgroep (conversie).
-    - Influencers vergroten het bereik (branding).
-    - Influencers vergroten SEO posities in Google, door het plaatsen van content op hun site of blog met daarin follow links (SEO).
+  - buttonText: 'no'
+    buttonUrl: '#'
+    image: img/about/about-1.png
+    locations:
+      - name: test
+    title: Kwalitatieve backlinks zijn essentieel voor hoge Google rankings!
+  - buttonText: Gratis Linkbuilding Advies
+    buttonUrl: '#'
+    image: img/about/about-2.png
+    title: De voordelen van Influencer Marketing
