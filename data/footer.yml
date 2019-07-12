@@ -1,78 +1,16 @@
 footerTop:
+  ButtonText: Gratis Linkbuilding Advies
+  ButtonUrl: '#'
   heading: Genereer meer website verkeer naar uw website of webshop
-  info: Working with Brands adviseert u graag vrijblijvend om te kijken naar de mogelijkheden van linkbuilden via Influencer Marketing.
-  ButtonText: Gratis Linkbuilding Advies
-  ButtonUrl: "#"
+  info: >-
+    Working with Brands adviseert u graag vrijblijvend om te kijken naar de
+    mogelijkheden van linkbuilden via Influencer Marketing.
 footerBottom:
-  about: Working with Brands gelooft in de kracht van influencers voor hogere conversies, directe zichtbaarheid en betere SEO posities.
-  info: Working with Brands adviseert u graag vrijblijvend om te kijken naar de mogelijkheden van linkbuilden via Influencer Marketing.
-  ButtonText: Gratis Linkbuilding Advies
-  ButtonUrl: "#"
-navs:
-  WorkingwithBrands:
-    - name: Werkwijze
-      url: "#features"
-      popup: "false"
-      class: ""
-    - name: Voordelen
-      url: "#about"
-      popup: "false"
-      class: ""
-    - name: Diensten
-      url: "#services"
-      popup: ""
-      class: ""
-    - name: Referenties
-      url: "#clients"
-      popup: ""
-      class: ""
-    - name: Tarieven
-      url: "#pricing"
-      popup: ""
-      class: ""
-    - name: Blog
-      url: "#news"
-      popup: ""
-      class: ""
-    - name: Contact
-      url: " "
-      popup: "true"
-      class: "mobile-show open-popup"
-  Diensten:
-    - name: Linkbuilding
-      url: "#services"
-      popup: "false"
-      class: ""
-    - name: Backlink monitoring
-      url: "#services"
-      popup: "false"
-      class: ""
-    - name: Zoekmachine marketing
-      url: "#services"
-      popup: "false"
-      class: ""
-    - name: SEO strategie
-      url: "#services"
-      popup: "false"
-      class: ""
-    - name: Keyword onderzoek
-      url: "#services"
-      popup: "false"
-      class: ""
-    - name: Content Creatie
-      url: "#services"
-      popup: "false"
-      class: ""                  
-    - name: Internationalisering
-      popup: "false"
-      class: ""
-  Legal:
-    - name: Algemene Voorwaarden
-      url: "#"
-      popup: "false"
-      class: ""
-    - name: Privacy policy
-      url: "#"
-      popup: "false"
-      class: ""
-copyright: "Copyright 2019 <a href='https://www.workingwithbrands.com'> Working with Brands</a> All Right Reserved."
+  ButtonText: Gratis Linkbuilding Advies Vviek
+  ButtonUrl: '#'
+  about: >-
+    Working with Brands gelooft in de kracht van influencers voor hogere
+    conversies, directe zichtbaarheid en betere SEO posities.
+  info: >-
+    Working with Brands adviseert u graag vrijblijvend om te kijken naar de
+    mogelijkheden van linkbuilden via Influencer Marketing.
