@@ -1,42 +1,4 @@
-navs:
-  - name: Werkwijze
-    url: "#features"
-    popup: "false"
-    class: ""
-  - name: Voordelen
-    url: "#about"
-    popup: "false"
-    class: ""
-  - name: Diensten
-    url: "#services"
-    popup: ""
-    class: ""
-  - name: Referenties
-    url: "#clients"
-    popup: ""
-    class: ""
-  - name: Tarieven
-    url: "#pricing"
-    popup: ""
-    class: ""
-  - name: Blog
-    url: "#news"
-    popup: ""
-    class: ""
-  - name: Contact
-    url: " "
-    popup: "true"
-    class: "mobile-show open-popup"
-  - name: Gratis Advies
-    url: " "
-    popup: "true"
-    class: "mobile-show"
-loginRegister:
-  - name: Contact
-    url: " "
-    popup: "true"
-    class: "open-popup"
-  - name: Gratis Advies
-    url: " "
-    popup: "true"
-    class: "menu-contact"
+title: test
+url: '#'
+popup: 'false'
+class: 'no'
