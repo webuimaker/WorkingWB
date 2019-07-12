@@ -122,10 +122,10 @@ collections: # A list of collections the CMS should be able to edit
             fields:
              - {label: image, name: image, widget: image}
              - {label: Title, name: title, widget: string}
-             - {label: button Text, name: buttonText, widget: string}
-             - {label: button Url , name: buttonUrl, widget: string}
-             - label: Locations
-               name: locations
+             - {label: button Text, name: buttonText, widget: string, required: false}
+             - {label: button Url , name: buttonUrl, widget: string, required: false}
+             - label: subList
+               name: subList
                widget: list
                fields:
-                - {label: Name, name: name, widget: string}
+                - {label: Sub List , name: subListname, widget: string}
