@@ -102,3 +102,11 @@ collections: # A list of collections the CMS should be able to edit
         file: "data/featureAreaTop.yml"
         fields:
           - {label: enable, name: enable, widget: string}
+          - {label: Title Section, name: titleSection, widget: string}
+          - label: "list"
+            name: list
+            widget: "list"
+            fields:
+             - {label: image, name: image, widget: image}
+             - {label: heading, name: heading, widget: string}
+             - {label: info, name: info, widget: string}
