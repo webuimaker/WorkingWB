@@ -29,8 +29,6 @@ collections: # A list of collections the CMS should be able to edit
         label: "Menu"
         file: "data/menu.yml"
         fields:
-         - {label: "copyright", name: "copyright", widget: "string"}
-        fields:
           - label: "Navigation"
             name: navs
             widget: "list"
