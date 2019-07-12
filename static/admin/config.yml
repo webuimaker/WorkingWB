@@ -19,3 +19,18 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "settings"
+    label: "settings"
+    create: true # Allow users to create new documents in this collection
+    files:
+      - file: "data/menu.yml"
+        label: "Navigation"
+        name: "navs"
+        widget: list
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: URL, name: url, widget: string}
+          - {label: Popup, name: popup, widget: string}
+          - {label: Class, name: class, widget: string}
+          
+          
