@@ -51,6 +51,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - label: "Footer Top"
             name: footerTop
+            widget: "object"
             fields:
              - {label: Heading, name: heading, widget: string}
              - {label: Information, name: info, widget: string}
