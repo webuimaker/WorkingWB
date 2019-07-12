@@ -31,8 +31,6 @@ navs:
     name: Gratis Advies
     popup: 'true'
     url: ' '
-  - name: demo
-    url: '#'
 loginRegister:
   - class: open-popup
     name: Contact

@@ -45,5 +45,17 @@ collections: # A list of collections the CMS should be able to edit
              - {label: URL, name: url, widget: string}
              - {label: Popup, name: popup, widget: string, required: false}
              - {label: Class, name: class, widget: string, required: false}
-          
-          
+    files:
+      - name: "footer"
+        label: "Footer"
+        file: "data/footer.yml"
+        fields:
+          - label: "Footer Top"
+            name: footerTop
+            fields:
+             - {label: Heading, name: heading, widget: string}
+             - {label: Information, name: info, widget: string}
+             - {label: Button Text, name: ButtonText, widget: string, required: false}
+             - {label: Button URL, name: ButtonUrl, widget: string, required: false}
+             
+             
