@@ -128,4 +128,4 @@ collections: # A list of collections the CMS should be able to edit
                name: subList
                widget: "list"
                fields:
-                - {widget: string}
+                - {label: sublist, name: sublist, widget: string}
