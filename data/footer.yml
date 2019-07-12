@@ -14,3 +14,7 @@ footerBottom:
   info: >-
     Working with Brands adviseert u graag vrijblijvend om te kijken naar de
     mogelijkheden van linkbuilden via Influencer Marketing.
+navs:
+  WorkingwithBrands:
+    - name: text
+      url: '#'
