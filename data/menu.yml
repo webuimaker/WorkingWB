@@ -1,4 +1,5 @@
-title: test
-url: '#'
-popup: 'false'
-class: 'no'
+navs:
+  - class: ss
+    popup: nn
+    title: 'text '
+    url: '#'
