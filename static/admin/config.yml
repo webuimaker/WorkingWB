@@ -94,11 +94,11 @@ collections: # A list of collections the CMS should be able to edit
                - {label: URL, name: url, widget: string}
                - {label: Popup, name: popup, widget: string, required: false}
                - {label: Class, name: class, widget: string, required: false}
-  - label: "Pages"
-    name: "pages"
+  - label: "Home"
+    name: "home"
     files:
       - label: "Home Feature Area Top"
         name: "featureAreaTop"
-        file: "data/home/featureAreaTop.yml"
+        file: "data/featureAreaTop.yml"
         fields:
-          - {label: Title, name: title, widget: string}
+          - {label: enable, name: enable, widget: string}
