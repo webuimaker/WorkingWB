@@ -4,13 +4,13 @@
             <div class="row">
                 <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                     <div class="area-title text-center wow fadeInUp">
-                        <h2>{{ .Site.Data.home.featureArea.titleSection }}</h2>
+                        <h2>{{ .Site.Data.featureArea.titleSection }}</h2>
                     </div>
                 </div>
             </div>
 			
             <div class="row">
-				{{ range .Site.Data.home.featureArea.list }}
+				{{ range .Site.Data.featureArea.list }}
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
 						<div class="text-icon-box relative mb50 padding30 box-hover-1 wow fadeInLeft" data-wow-delay="0.3s">
 							<div class="box-img-icon">

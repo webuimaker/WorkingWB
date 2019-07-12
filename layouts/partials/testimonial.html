@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                     <div class="area-title text-center referenties">
-                        <h2>{{ .Site.Data.home.testimonial.titleSection }}</h2>
+                        <h2>{{ .Site.Data.testimonial.titleSection }}</h2>
                     </div>
                 </div>
             </div>
@@ -16,14 +16,14 @@
             <div class="row">
                 <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                     <div class="area-title text-center">
-                        <p>{{ .Site.Data.home.testimonial.subTitleSection }}</p>  
+                        <p>{{ .Site.Data.testimonial.subTitleSection }}</p>  
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="client-list client-slider">
-						{{ range .Site.Data.home.testimonial.clientsLogo }}
+						{{ range .Site.Data.testimonial.clientsLogo }}
 							<div class="single-client"><img src="{{.}}" alt=""></div>
 						{{end}}
                     </div>
@@ -33,7 +33,7 @@
     </section>
     <!--CLIENT AREA END-->
         <div class="testmonial-slider">
-			{{ range .Site.Data.home.testimonial.testmonials }}
+			{{ range .Site.Data.testimonial.testmonials }}
 				<div class="single-testmonial-two">
 					<div class="testmonial-quote"></div>
 					<div class="author-content mb20">
