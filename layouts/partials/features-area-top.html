@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="row">
-				{{ range .Site.Data.home.featureAreaTop.list }}
+				{{ range first 3 .Site.Data.home.featureAreaTop.list }}
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
 						<div class="text-icon-box mb50 center padding20 box-hover-1 wow fadeInUp" data-wow-delay="0.1s">
 							<div class="box-img-icon">
