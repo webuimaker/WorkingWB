@@ -49,11 +49,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "Footer"
         file: "data/footer.yml"
         fields:
-          - label: "copyright"
-            name: footerTop
-            widget: "object"
-            fields:
-             - {label: copyright, name: copyright, widget: string}
+          - {label: copyright, name: copyright, widget: string}
           - label: "Footer Top"
             name: footerTop
             widget: "object"
