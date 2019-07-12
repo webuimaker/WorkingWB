@@ -1,0 +1,21 @@
+enable: "true"
+titleSection: "Diensten"
+list:
+ - image: img/icon/service_1.png
+   heading: Content Creatie
+   info: Bereik uw doelgroep door de creatie van de juiste content verspreid onder de juiste doelgroep. Gegarandeert resultaat met ons influencer netwerk.
+ - image: img/icon/service_2.png
+   heading: Keyword Onderzoek
+   info: Voordat wij starten met linkbuilding via influencers doen we eerst een keyword onderzoek om concurrentie en kansen in kaart te brengen.
+ - image: img/icon/service_3.png
+   heading: Internationalisering
+   info: Ons netwerk gaat verder dan alleen Nederland en ideaal om uw doelgroep ook in het buitenland te bereiken.
+ - image: img/icon/service_5.png
+   heading: Backlink monitoring
+   info: Backlinks zijn belangrijke bouwstenen van uw SEO strategy. Het is daarom van belang dat wij precies de status van al uw links monitoren.
+ - image: img/icon/service_6.png
+   heading: Zoekmachine Marketing
+   info: De site is het fundament van SEO. Het is essentieel dat deze SEO technisch goed op orde is. Wij adviseren onze klanten omtrent de status.
+ - image: img/icon/service_4.png
+   heading: Linkbuilding   
+   info: Iedere maand vergroten we het aantal kwalitatieve backlinks wat uw domein authoriteit zal versterken en posities in Google zal verhogen.

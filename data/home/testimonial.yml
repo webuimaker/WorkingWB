@@ -1,0 +1,23 @@
+enable: "true"
+titleSection: "Referenties"
+subTitleSection: "Bedrijven waarvoor wij hebben mogen werken"
+clientsLogo:
+ - img/client/client-6.png
+ - img/client/client-7.png
+ - img/client/client-8.png
+ - img/client/client-9.png
+ - img/client/client-10.png
+ - img/client/client-11.png
+ - img/client/client-12.png
+ - img/client/client-13.png
+testmonials:
+ - image: img/testmonial/testmonial-1.jpg
+   name: Mckayla Lilly
+   info: Building a compelling and intuitive user experience is vital to being effective online. Ironpaper specializes in making online business systems and websites more user friendly and easy to navigate. ?
+   linkText: x.com
+   linkUrl: "#"
+ - image: img/testmonial/testmonial-1.jpg
+   name: Mckayla Lilly
+   info: Building a compelling and intuitive user experience is vital to being effective online. Ironpaper specializes in making online business systems and websites more user friendly and easy to navigate. ?
+   linkText: x.com
+   linkUrl: "#"
