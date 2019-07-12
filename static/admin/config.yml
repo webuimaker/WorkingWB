@@ -29,6 +29,8 @@ collections: # A list of collections the CMS should be able to edit
         label: "Menu"
         file: "data/menu.yml"
         fields:
+          - {label: "copyright", name: "copyright", widget: "string"}
+        fields:
           - label: "Navigation"
             name: navs
             widget: "list"
@@ -71,6 +73,22 @@ collections: # A list of collections the CMS should be able to edit
             fields:
             - label: "Working with Brands"
               name: WorkingwithBrands
+              widget: "list"
+              fields:
+               - {label: Title, name: name, widget: string}
+               - {label: URL, name: url, widget: string}
+               - {label: Popup, name: popup, widget: string, required: false}
+               - {label: Class, name: class, widget: string, required: false}
+            - label: "Diensten"
+              name: Diensten
+              widget: "list"
+              fields:
+               - {label: Title, name: name, widget: string}
+               - {label: URL, name: url, widget: string}
+               - {label: Popup, name: popup, widget: string, required: false}
+               - {label: Class, name: class, widget: string, required: false}
+            - label: "Legal"
+              name: Legal
               widget: "list"
               fields:
                - {label: Title, name: name, widget: string}
