@@ -1,42 +1,44 @@
 navs:
-  - name: Werkwijze
-    url: "#features"
-    popup: "false"
-    class: ""
-  - name: Voordelen
-    url: "#about"
-    popup: "false"
-    class: ""
-  - name: Diensten
-    url: "#services"
-    popup: ""
-    class: ""
-  - name: Referenties
-    url: "#clients"
-    popup: ""
-    class: ""
-  - name: Tarieven
-    url: "#pricing"
-    popup: ""
-    class: ""
-  - name: Blog
-    url: "#news"
-    popup: ""
-    class: ""
-  - name: Contact
-    url: " "
-    popup: "true"
-    class: "mobile-show open-popup"
-  - name: Gratis Advies
-    url: " "
-    popup: "true"
-    class: "mobile-show"
+  - class: ''
+    name: Werkwijze
+    popup: 'false'
+    url: '#features'
+  - class: ''
+    name: Voordelen
+    popup: 'false'
+    url: '#about'
+  - class: ''
+    name: Diensten
+    popup: ''
+    url: '#services'
+  - class: ''
+    name: Referenties
+    popup: ''
+    url: '#clients'
+  - class: ''
+    name: Tarieven
+    popup: ''
+    url: '#pricing'
+  - class: ''
+    name: Blog
+    popup: ''
+    url: '#news'
+  - class: mobile-show open-popup
+    name: Contact
+    popup: 'true'
+    url: ' '
+  - class: mobile-show
+    name: Gratis Advies
+    popup: 'true'
+    url: ' '
+  - name: demo
+    url: '#'
 loginRegister:
-  - name: Contact
-    url: " "
-    popup: "true"
-    class: "open-popup"
-  - name: Gratis Advies
-    url: " "
-    popup: "true"
-    class: "menu-contact"
+  - class: open-popup
+    name: Contact
+    popup: 'true'
+    url: ' '
+  - class: menu-contact
+    name: Gratis Advies
+    popup: 'true'
+    url: ' '
