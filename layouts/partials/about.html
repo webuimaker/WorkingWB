@@ -1,0 +1,84 @@
+<!--ABOUT AREA-->
+    <section class="about-area sky-gray-bg padding-top relative wow fadeIn" id="about">
+        <div class="area-bg"></div>
+        <div class="container">
+            
+            <div class="row flex-v-center">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center">
+                    <div class="area-title no-margin text-center">
+                        <h2>{{ .Site.Data.home.about.titleSection }}</h2>
+                    </div>
+                </div>
+            </div>
+			
+		
+			
+			{{ range $i,$p := .Site.Data.home.about.list }}
+				
+				
+				
+				  {{if not (modBool $i 2)}}
+						
+						<div class="row flex-v-center padding-top">
+							
+							<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+								<div class="about-content xs-mb50 wow fadeInUp">
+									<h3 class="mb30">{{ .title }}</h3>
+									
+									<ul>
+										{{ range .subList }}
+											<li> <i class="fa fa-check"></i> {{.}}	</li>
+										{{end}}
+									</ul>
+									{{ if .buttonText }}
+										<a href="{{ .buttonUrl }}" class="read-more mt30 inline-block open-popup" >{{ .buttonText }}</a>
+									{{ end }}
+								</div>
+							</div>
+							
+							<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+								<div class="about-mockup wow fadeIn">
+									<img src="{{ .image }}" alt="">
+								</div>
+							</div>
+						</div>
+					{{else}}
+					
+					<div class="row flex-v-center">
+						<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+							<div class="about-mockup right xs-mb50 wow fadeIn">
+								<img src="{{ .image }}" alt="">
+							</div>
+						</div>
+						
+						<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+							<div class="about-content wow fadeInUp">
+								<h3 class="mb30">{{ .title }}</h3>
+								
+								<ul>
+									{{ range .subList }}
+										<li> <i class="fa fa-check"></i> {{.}}	</li>
+									{{end}}
+								</ul>
+								{{ if .buttonText }}
+									<a href="{{ .buttonUrl }}" class="read-more mt30 inline-block open-popup" >{{ .buttonText }}</a>
+								{{ end }}
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+				   {{end}}
+				   
+				   
+				 {{end}}
+			
+			
+			
+			
+        </div>
+    </section>
+    <!--ABOUT AREA END-->

@@ -1,0 +1,37 @@
+<!--START TOP AREA-->
+    <header class="top-area" id="home">
+        <div class="header-top-area" id="scroolup">
+            <!--MAINMENU AREA-->
+            <div class="mainmenu-area" id="mainmenu-area">
+                <div class="mainmenu-area-bg"></div>
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-header ">
+                            <a href="#home" class="navbar-brand"><img src="/img/logo.png" alt="logo" class="logoimg"></a>
+                        </div>
+                        <div class="mainmenu-and-right-button">
+                            <div id="main-nav" class="stellarnav">
+								<ul id="nav" class="nav navbar-nav">								
+									{{ range .Site.Data.menu.navs }}
+										<li><a {{ if ne .popup "true"}} href="{{ .url }}" {{ else }} class="open-popup {{ .class }}" {{ end }} >{{ .name }}</a></li>
+									{{end}}
+                                </ul>
+                            </div>
+                            <div class="login-register">
+                                <ul>
+									{{ range .Site.Data.menu.loginRegister }}
+										<li><a  href="#" {{ if ne .popup "true"}} href="{{ .url }}" {{ else }} class="open-popup {{ .class }}" {{ end }} >{{ .name }}</a></li>
+									{{end}}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!--END MAINMENU AREA END-->
+        </div>
+		{{- partial "welcome.html" . -}}
+		
+
+    </header>
+    <!--END TOP AREA-->

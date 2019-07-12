@@ -1,0 +1,28 @@
+<!--BLOG AREA-->
+    <section class="blog-area padding-100-50 wow fadeIn" id="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
+                    <div class="area-title text-center">
+                        <h2>Blog</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row blog-slider no-margin">
+				{{ range where .Site.RegularPages "Section" "blog" }}
+					<div class="col-md-6 col-lg-4 col-sm-6 col-xs-12 no-padding">
+						<div class="single-blog-item mb50 shadow">
+							<div class="blog-thumb">
+								<a href="{{.Permalink}}"><img src="{{ .Params.image }}" alt=""></a>
+							</div>
+							<div class="blog-details padding20">
+								<h3 class="blog-title mt10"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+								<a class="read-more" href="{{ .Permalink }}">Lezen</a>
+							</div>
+						</div>
+					</div>
+				{{ end }}
+            </div>
+        </div>
+    </section>
+    <!--BLOG AREA END-->

@@ -1,0 +1,79 @@
+<!--FOOER AREA-->
+    <footer class="footer-area sky-gray-bg section-padding relative wow fadeIn">
+        
+		
+		<div class="footer-top-area padding-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="call-to-action flex-v-center">
+                            <div class="cta-content width50p xs-width100p">
+                                <h3 class="font32 xs-font24">{{ .Site.Data.footer.footerTop.heading }} </h3>
+                                <p>{{ .Site.Data.footer.footerTop.info }}</p>
+                            </div>
+                            <div class="cta-button width50p xs-width100p right xs-left xs-mt30"><a href="{{ .Site.Data.footer.footerTop.ButtonUrl }}" class="read-more open-popup">{{ .Site.Data.footer.footerTop.ButtonText }}</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		
+		
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12 sm-center xs-center sm-mb50 xs-mb50">
+                        <div class="footer-logo mb50">
+                            <a href="#"><img src="#" alt=""></a>
+                        </div>
+                        <div class="footer-about">
+                            <p>{{ .Site.Data.footer.footerBottom.about }}</p>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-md-offset-1 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="single-footer-widget">
+                                    <h4>Working with Brands</h4>
+                                    <ul>
+										{{ range .Site.Data.footer.navs.WorkingwithBrands }}
+											<li><a {{ if ne .popup "true"}} href="{{ .url }}" {{ else }} class="open-popup {{ .class }}" {{ end }} >{{ .name }}</a></li>
+										{{end}}
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="single-footer-widget">
+                                    <h4>Diensten</h4>
+                                    <ul>
+										{{ range .Site.Data.footer.navs.Diensten }}
+											<li><a {{ if ne .popup "true"}} href="{{ .url }}" {{ else }} class="open-popup {{ .class }}" {{ end }} >{{ .name }}</a></li>
+										{{end}}
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="single-footer-widget">
+                                    <h4>Legal</h4>
+                                    <ul>
+                                       {{ range .Site.Data.footer.navs.Legal }}
+											<li><a {{ if ne .popup "true"}} href="{{ .url }}" {{ else }} class="open-popup {{ .class }}" {{ end }} >{{ .name }}</a></li>
+										{{end}}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-copyright mt50 center">
+                            <p>{{.Site.Data.footer.copyright | safeHTML}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--FOOER AREA END-->
