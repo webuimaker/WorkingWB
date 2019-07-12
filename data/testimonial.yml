@@ -2,14 +2,14 @@ enable: "true"
 titleSection: "Referenties"
 subTitleSection: "Bedrijven waarvoor wij hebben mogen werken"
 clientsLogo:
- - img/client/client-6.png
- - img/client/client-7.png
- - img/client/client-8.png
- - img/client/client-9.png
- - img/client/client-10.png
- - img/client/client-11.png
- - img/client/client-12.png
- - img/client/client-13.png
+ - image: img/client/client-6.png
+ - image: img/client/client-7.png
+ - image: img/client/client-8.png
+ - image: img/client/client-9.png
+ - image: img/client/client-10.png
+ - image: img/client/client-11.png
+ - image: img/client/client-12.png
+ - image: img/client/client-13.png
 testmonials:
  - image: img/testmonial/testmonial-1.jpg
    name: Mckayla Lilly

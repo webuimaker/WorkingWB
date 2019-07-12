@@ -142,3 +142,24 @@ collections: # A list of collections the CMS should be able to edit
              - {label: image, name: image, widget: image}
              - {label: heading, name: heading, widget: string}
              - {label: info, name: info, widget: string}
+      - label: "Testimonial"
+        name: "testimonial"
+        file: "data/testimonial.yml"
+        fields:
+          - {label: enable, name: enable, widget: string}
+          - {label: Title Section, name: titleSection, widget: string}
+          - {label: sub Title Section, name: subTitleSection, widget: string}
+          - label: "Clients Logo"
+            name: clientsLogo
+            widget: "list"
+            fields:
+             - {label: image, name: image, widget: image}
+          - label: "testmonials"
+            name: testmonials
+            widget: "list"
+            fields:
+             - {label: image, name: image, widget: image}
+             - {label: name, name: name, widget: string}
+             - {label: info, name: info, widget: string}
+             - {label: linkText, name: linkText, widget: string, required: false}
+             - {label: linkUrl, name: linkUrl, widget: string, required: false}
