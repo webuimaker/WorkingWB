@@ -124,3 +124,8 @@ collections: # A list of collections the CMS should be able to edit
              - {label: Title, name: title, widget: string}
              - {label: button Text, name: buttonText, widget: string}
              - {label: button Url , name: buttonUrl, widget: string}
+             - label: Locations
+               name: locations
+               widget: list
+               fields:
+                - {label: Name, name: name, widget: string}
