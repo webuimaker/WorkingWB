@@ -7,33 +7,33 @@ list:
    buttonText: "Aanvragen"
    buttonUrl: "#"
    subList:
-    - Small Backlink Netwerk
-    - Backlink monitoring
-    - Keyword analyse
-    - Content creatie
-    - Content distributie
-    - SEO advies
+    - checkList: Small Backlink Netwerk
+    - checkList: Backlink monitoring
+    - checkList: Keyword analyse
+    - checkList: Content creatie
+    - checkList: Content distributie
+    - checkList: SEO advies
  - heading: Medium
    rate: €1500
    per: "p.m."
    buttonText: "Aanvragen"
    buttonUrl: "#"
    subList:
-    - Medium Backlink Netwerk
-    - Backlink monitoring
-    - Keyword analyse
-    - Content creatie
-    - Content distributie
-    - SEO advies
+    - checkList: Medium Backlink Netwerk
+    - checkList: Backlink monitoring
+    - checkList: Keyword analyse
+    - checkList: Content creatie
+    - checkList: Content distributie
+    - checkList: SEO advies
  - heading: Big
    rate: €2500
    per: "p.m."
    buttonText: "Aanvragen"
    buttonUrl: "#"
    subList:
-    - Big Backlink Netwerk
-    - Backlink monitoring
-    - Keyword analyse
-    - Content creatie
-    - Content distributie
-    - SEO advies
+    - checkList: Big Backlink Netwerk
+    - checkList: Backlink monitoring
+    - checkList: Keyword analyse
+    - checkList: Content creatie
+    - checkList: Content distributie
+    - checkList: SEO advies

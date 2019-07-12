@@ -163,3 +163,23 @@ collections: # A list of collections the CMS should be able to edit
              - {label: info, name: info, widget: string}
              - {label: linkText, name: linkText, widget: string, required: false}
              - {label: linkUrl, name: linkUrl, widget: string, required: false}
+      - label: "Pricing"
+        name: "pricing"
+        file: "data/pricing.yml"
+        fields:
+          - {label: enable, name: enable, widget: string}
+          - {label: Title Section, name: titleSection, widget: string}
+          - label: "list"
+            name: list
+            widget: "list"
+            fields:
+             - {label: heading, name: heading, widget: string}
+             - {label: rate, name: rate, widget: string}
+             - {label: per, name: per, widget: string}
+             - {label: button Text , name: buttonText, widget: string, required: false}
+             - {label: button Url , name: buttonUrl, widget: string, required: false}
+             - label: subList
+               name: subList
+               widget: list
+               fields:
+                - {label: Check List , name: checkList, widget: string}
